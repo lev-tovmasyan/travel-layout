@@ -1,0 +1,25 @@
+@import "../../assets/styles/media";
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+
+  @include tablet-xxl {
+    font-size: 13px;
+  }
+
+  @include mobile-xl {
+    font-size: 11px;
+  }
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
