@@ -52,7 +52,7 @@ $mobile-xl: 600px;
 }
 
 @mixin mobile-xxl {
-  @media (max-height: $mobile-xxl) {
+  @media (max-width: $mobile-xxl) {
     @content;
   }
 }
