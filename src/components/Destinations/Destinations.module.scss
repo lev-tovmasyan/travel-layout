@@ -1,1 +1,80 @@
- 
+
+.Destinations {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.destinationTitle {
+    display: flex;
+    justify-content: center;
+} 
+
+.destinationContent {
+    display: flex;
+    justify-content: space-between;
+    height: 48.25rem;
+   
+}
+ .destinationGlobus {
+    background-image: url(../../assets/images/globus.png);
+    width: 45%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40%;
+    
+ }
+
+ .destinationItems {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+ .destinationItem {
+    width: 40,3125rem;
+    display: flex;
+    height: 13.9375;
+    box-shadow: 2px 2px 2px rgb(214, 211, 211);
+ }
+ .itemImg1 {
+    background-image: url(../../assets/images/Destinations1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 13.9375rem;
+    width: 13.625rem;
+ }
+
+ .itemImg2 {
+    background-image: url(../../assets/images/Destinations2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 13.9375rem;
+    width: 13.625rem;
+ }
+
+ .itemImg3 {
+    background-image: url(../../assets/images/Destinations3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 13.9375rem;
+    width: 13.625rem;
+ }
+
+ .itemCOntent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 26.6875rem;
+ }
+
+ .itemInnerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+ }
