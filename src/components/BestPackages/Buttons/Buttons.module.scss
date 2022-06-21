@@ -1,0 +1,40 @@
+@import "../../../assets/styles/media.scss";
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    color: white;
+    font-weight: 700;
+    font-size: 1.25rem;
+
+    & > div {
+        margin: 1rem
+    }
+
+    @include tablet-xxl {
+        flex-direction: column;
+        margin: 1rem;
+    }
+}
+
+.greenButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 11.25rem;
+    height: 3.75rem;
+    background-color: var(--color-green);
+    border-radius: 0.5rem;
+}
+
+.greyButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 11.25rem;
+    height: 3.75rem;
+    background-color: #666666;
+    border-radius: 0.5rem;
+}

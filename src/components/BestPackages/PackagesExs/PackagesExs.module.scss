@@ -1,0 +1,84 @@
+@import "../../../assets/styles/media.scss";
+
+
+.packagesExsContainer {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+
+    & > div {
+        margin: 1rem;
+    }
+
+    @include tablet-xxl {
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem;
+    }
+}
+
+.packagesImg1{
+    background-image: url('../../../assets/images/1ex.jpg');
+    width: 24.5rem;
+    height: 30rem;
+    position: relative;
+    border-radius: 0.8rem;
+}
+
+.packagesImg2{
+    background-image: url('../../../assets/images/2ex.png');
+    width: 24.5rem;
+    height: 30rem;
+    position: relative;
+    border-radius: 0.8rem;
+}
+
+.packagesImg3{
+    background-image: url('../../../assets/images/3ex.png');
+    width: 24.5rem;
+    height: 30rem;
+    position: relative;
+    border-radius: 0.8rem;
+}
+
+.texts{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    bottom: 0;
+    height: 10rem;
+    font-family: 'Open Sans';
+    padding: 0.5rem 1rem 1rem 1rem ;
+}
+
+.priceAndDays {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.packagesDescription{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+}
+
+.packagesLoc {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.locContainer{
+    display: flex;
+}
+
+.knowMore{
+    text-decoration: underline;
+}
