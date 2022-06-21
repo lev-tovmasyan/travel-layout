@@ -1,6 +1,11 @@
+import React from 'react';
+import Cover from './Cover/Cover';
+import Services from './OurServices/Services';
+
 const App = () => (
   <div>
-    Travel Goo
+    <Cover />
+    <Services />
   </div>
 );
 

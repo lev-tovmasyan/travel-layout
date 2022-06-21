@@ -1,0 +1,57 @@
+@import "../../../assets/styles/media.scss";
+
+
+.TextsConainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12.5rem;
+    color: white;
+}
+
+.firstText{
+    font-size: 4.7rem;
+    font-family: 'Open Sans';
+    font-weight: 800;
+    width: 50rem;
+    text-align: center;
+
+    @include mobile-xxl {
+        font-size: 2.7rem;
+        width: 28rem;
+      }
+}
+
+.secondText {
+    font-size: 1rem;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    width: 40%;
+    text-align: center;
+    margin-top: 3.6rem;
+
+    @include mobile-xxl {
+        font-size: 1.5rem;
+        width: 28rem;
+        margin-top: 11rem;
+      }
+}
+
+.coverButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12.5rem;
+    height: 3.125rem;
+    border-radius: 0.5rem;
+    background-color: var(--color-green);
+    font-size: 1.25rem;
+    margin-top: 3.25rem;
+
+    @include mobile-xxl {
+        font-size: 1.75rem;
+        width: 15.5rem;
+        height: 4.125rem;
+        margin-top: 6.25rem;
+      }
+}
